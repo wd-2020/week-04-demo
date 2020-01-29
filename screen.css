@@ -6,6 +6,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles... */
 
+/* Using a Major Third modular scale:
+*  https://www.modularscale.com/?18&px&1.25
+*/
+
 html {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
@@ -17,6 +21,11 @@ h1,
 h2,
 h3 {
   font-weight: bold;
+}
+
+h1 {
+  font-size: 35.156px;
+  line-height: 44px;
 }
 
 h1,
