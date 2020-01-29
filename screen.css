@@ -12,7 +12,23 @@ html {
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222  */
 }
 
-
+h1,
+h2,
+h3,
+p {
+  padding-bottom: 1.2222222222em;
+}
+ol,
+ul {
+  padding-bottom: 0.6111111111em;
+}
+li ol,
+li ul {
+  padding-bottom: 0;
+}
+li {
+  padding-bottom: 0.6111111111em;
+}
 /* Show Gridlines... */
 
 /**
